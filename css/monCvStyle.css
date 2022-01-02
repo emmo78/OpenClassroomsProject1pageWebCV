@@ -1,7 +1,6 @@
-.imgBandeau
+body
 {
-    width: 100%;
-    display: block;
+    background: url(../img/Html5-source-code.png) fixed repeat-y;
 }
 
 .imgMoi
@@ -22,15 +21,17 @@ h1
 {   font-family: "Comic Sans MS";
     font-size: 2.5em;
     text-align: center;
-    color:darkblue;
+    color: fuchsia;
+    text-shadow:3px 3px 2px indigo;
 }
 
 h2
 {   font-family: "Comic Sans MS";
     font-size: 2.em;
     text-align: center;
-    color:black;
-    text-decoration: underline;
+    color:mediumblue;
+    border: 2px mediumblue solid;
+    border-radius : 10px / 5px;
 }
 
 p
