@@ -41,4 +41,24 @@ p
     color:black;
 }
 
+a
+{
+    text-decoration: none;
+    color:lime;
+    font-style: italic;
+}
+a:hover
+{
+    font-style: normal;
+    font-weight: bold;
+}
+a:active
+{
+    background-color: rgb(255, 217, 4);
+}
+a:visited
+{
+    text-decoration: underline;
+    color:royalblue;
+}
 
