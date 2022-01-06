@@ -1,14 +1,28 @@
 body
 {
-    background: url(../img/Html5-source-code.png) fixed repeat-y;
+    background: url(../img/Html5-source-code.png) scroll repeat-y;
+}
+
+#container
+{
+    display: flex;
+}
+aside
+{
+    flex: 1;
+    padding: 0 2%;
+}
+article
+{
+    flex: 3;
+    padding: 150px 2% 0 2%;
 }
 
 .imgMoi
 {
     width: 200px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .nomFormation, .nomExperience
