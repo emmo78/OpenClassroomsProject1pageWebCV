@@ -3,6 +3,17 @@ body
     background: url(../img/Html5-source-code.png) scroll repeat-y;
 }
 
+@font-face {
+    font-family: 'sf_cartoonist_handregular';
+    src: url('./webFonts/SF_Cartoonist_Hand-webfont.eot');
+    src: url('./webFonts/SF_Cartoonist_Hand-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./webFonts/SF_Cartoonist_Hand-webfont.woff') format('woff'),
+         url('./webFonts/SF_Cartoonist_Hand-webfont.ttf') format('truetype'),
+         url('./webFonts/SF_Cartoonist_Hand-webfont.svg#sf_cartoonist_handregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #container
 {
     display: flex;
@@ -15,8 +26,22 @@ aside
 }
 article
 {
-    flex: 3;
+    flex: 2;
     margin: 150px 2% 0 2%;
+}
+
+@media all and (max-width: 800px)
+{
+    #container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article
+    {
+        margin-top: 0px;
+    }
 }
 
 .imgMoi
@@ -31,16 +56,6 @@ article
     text-decoration: underline;
 }
 
-@font-face {
-    font-family: 'sf_cartoonist_handregular';
-    src: url('./webFonts/SF_Cartoonist_Hand-webfont.eot');
-    src: url('./webFonts/SF_Cartoonist_Hand-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./webFonts/SF_Cartoonist_Hand-webfont.woff') format('woff'),
-         url('./webFonts/SF_Cartoonist_Hand-webfont.ttf') format('truetype'),
-         url('./webFonts/SF_Cartoonist_Hand-webfont.svg#sf_cartoonist_handregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 h1
 {   font-family: sf_cartoonist_handregular,"Comic Sans MS", serif;
     font-size: 3em;
